@@ -12,23 +12,37 @@ body {
 
 .header {
     width: 100%;
+    text-align: center;
     background-color: var(--white);
+    padding-bottom: 13px;
+    position: sticky;
 }
 
 .logo {
     width: 155px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .menu {
     font-size: 16px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 13px;
+    justify-content: center;
+}
+
+.blog {
+    margin-right: 20px;
+}
+
+.main {
+    padding-top: 235px;
 }
 
 .main-title {
     font-size: 30px;
     color: var(--white);
     text-align: center;
-
+    width: 155px;
+    margin: auto;
 }
