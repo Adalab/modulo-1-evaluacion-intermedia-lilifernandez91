@@ -46,3 +46,30 @@ body {
     width: 155px;
     margin: auto;
 }
+
+@media screen and (min-width:768px) {
+    .logo-movil {
+        width: 50%;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
+    .menu-movil {
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+
+    }
+
+    .header {
+        display: flex;
+        padding-bottom: 0;
+    }
+
+    .menu {
+        justify-content: right;
+    }
+}
