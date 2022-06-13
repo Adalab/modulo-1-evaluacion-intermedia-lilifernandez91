@@ -29,6 +29,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-transform: uppercase;
+}
+
+.menu-link {
+    padding: 8px;
 }
 
 .blog {
@@ -36,19 +41,23 @@ body {
 }
 
 .main {
-    padding-top: 235px;
+    font-size: 30px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    text-transform: capitalize;
+    align-items: center;
+    height: calc(100vh - 114px);
 }
 
 .main-title {
-    font-size: 30px;
-    color: var(--white);
-    text-align: center;
-    width: 155px;
-    margin: auto;
+    width: 190px;
 }
 
 @media screen and (min-width:768px) {
-    .logo-movil {
+    .logo-mobile {
         width: 50%;
         text-align: left;
         margin-top: 20px;
@@ -56,12 +65,11 @@ body {
         margin-left: 30px;
     }
 
-    .menu-movil {
+    .menu-mobile {
         width: 50%;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-right: 30px;
-
     }
 
     .header {
@@ -71,5 +79,10 @@ body {
 
     .menu {
         justify-content: right;
+        padding-top: 33px;
+    }
+
+    .main-title {
+        font-size: 40px;
     }
 }
